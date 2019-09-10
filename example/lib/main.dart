@@ -28,16 +28,13 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
 
-  void _incrementCounter() {
+  void incrementCounter() {
 
-    final calculator = Calculator();
-    var count = calculator.addOne(4);
+    XMToast.showToast('弄好好哦啊');
 
-    setState(() {
-      _counter += count;
-    });
+    debugPrint('sadfa');
+
   }
 
   @override
@@ -50,24 +47,16 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Column(
-
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.display1,
+          children: [
+            FlatButton (
+              child: Text("点击"),
+              onPressed: incrementCounter,
             ),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+       // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }

@@ -47,12 +47,19 @@ packages:
     source: sdk
     version: "0.0.0"
   flutter_xebaseui:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       path: ".."
       relative: true
     source: path
     version: "0.0.1"
+  fluttertoast:
+    dependency: transitive
+    description:
+      name: fluttertoast
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.1.3"
   matcher:
     dependency: transitive
     description:
