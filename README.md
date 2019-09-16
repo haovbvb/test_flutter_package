@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # flutter_xebaseui
 
 flutter_xebaseui
@@ -13,6 +12,4 @@ multiple Flutter or Dart projects.
 For help getting started with Flutter, view our 
 [online documentation](https://flutter.dev/docs), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
-=======
-# test_flutter_package
->>>>>>> f2370c22fceb015af8aa8135a9b1de5c631012e7
+
