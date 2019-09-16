@@ -11,7 +11,7 @@ class XMToast {
         gravity: ToastGravity.CENTER,
         timeInSecForIos: 1,
         backgroundColor: Colors.black,
-        textColor: Colors.black,
+        textColor: Colors.white,
         fontSize: 14.0
     );
   }

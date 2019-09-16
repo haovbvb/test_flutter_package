@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_xebaseui/flutter_xebaseui.dart';
+import 'DemoList.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: DemoList(),
     );
   }
 }
@@ -31,9 +32,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void incrementCounter() {
 
-    XMToast.showToast('弄好好哦啊');
-
-    debugPrint('sadfa');
+    XMToast.showToast('HHIHII');
 
   }
 
